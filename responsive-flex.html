@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+    <title>Responsive</title>
+    <style>
+
+    .nav {
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      align-items: center;
+    }
+body{
+   background-image: url(bbb.jpg);
+}
+
+    header {
+      height: 80vh;
+      background-image: url(uuu.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+    .brand {
+      display:inline-block;
+      text-decoration: none;
+      font-size: 5vh;
+      color: white;
+      margin-top: 0;
+      margin-left: 1vw;
+      margin-bottom: 0;
+      margin-right: 0;
+    }
+
+    .ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 3vw;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+
+    .li {
+      text-decoration: none;
+      color: white;
+      font-size: 3vh;
+      text-align: center;
+      margin-left: 2vw;
+    }
+
+    .header {
+      display: inline-block;
+      color: white;
+      font-size: 7vh;
+      margin: 15vh 0 0 6vh;
+    }
+
+    a:hover {
+      color:green;
+    }
+
+    .section {
+      margin: 5vh 10vh 5vh 10vh;
+      text-align: center;
+      color:white;
+    }
+
+    .description {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 5vh;
+    }
+
+
+    .description1 {
+      height: 55vh;
+      background-color: white;
+      width: 30vw;
+      margin-left: 10vh;
+      margin-bottom: 2vh;
+      background-image: url(rrr.jpg);
+      background-size: cover;
+    }
+
+    .description2 {
+      height: 55vh;
+      background-color: white;
+      width: 30vw;
+      margin-right: 10vh;
+      margin-bottom: 2vh;
+      background-image: url(mmm.jpg);
+      background-size: cover;
+    }
+
+    .p {
+      color:white;
+      text-align: center;
+      font-size: 3vh;
+    }
+
+    .bottom {
+
+      height: 5vh;
+      background-color: darkgrey;
+      text-align: center;
+    }
+
+    .a {
+      text-decoration: none;
+      color:white;
+      margin-top:1.25vh;
+      display:inline-block;
+
+  }
+
+    .footer {
+      height: 30vh;
+      background-color: black;
+      text-align: center;
+    }
+
+    .p2 {
+      display: inline-block;
+      margin-top: 15vh;
+      color: grey;
+    }
+
+    @media screen and (max-width: 768px) {
+      .description {
+        flex-direction: column;
+      }
+
+      .description1 {
+        margin-bottom: 20px;
+        margin-left: 0;
+      }
+
+      .description2 {
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
+    }
+</style>
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="brand" href="#"> Favourite anime </a>
+      <ul class="ul">
+        <li>
+          <a class="li" href="#"> About </a>
+        </li>
+        <li>
+          <a class="li" href=""> Watch </a>
+        </li>
+        <li>
+          <a class="li" href="#"> Read </a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="header">Demon Slayer</h1>
+    </header>
+     <div class="section">
+       <h1>Сюжет</h1>
+       <br>
+       <p>Ходят слухи, что в местных лесах обитают кровожадные демоны, которые питаются человеческой плотью. Вот только последние инциденты были так давно, что люди позабыли об опасностях дремучих лесов. Многие жители деревни считают, что сказание о демонах это просто страшилки и легенды. Танджиро Камадо живёт в маленькой деревушке, и он заботится о своей семье, ведь недавно исчез отец. Парню приходится работать на шахте и продавать уголь в городе. Очередная поездка на рынок не сулила неприятностей, но по возвращении домой парня ожидало чудовищное зрелище. Камадо увидел окровавленные тела родственников, которые были разбросаны во дворе. Оказалось, что лесные демоны напали на деревню и вырезали всех жителей. Чудом удалось выжить сестрёнке Нэзуко, но и у неё были проблемы, ведь существа превратили её в демона.</p>
+     </div>
+     <div class="description">
+     <div>
+      <div class="description1"></div>
+        <p class="p">Манга</p>
+      </div>
+      <div>
+     <div class="description2"></div>
+     <p class="p">Аніме</p>
+     </div>
+      </div>
+      <div class="bottom">
+        <a class="a" href="index.html"> Повернутись на головну сторінку</a>
+      </div>
+      <footer class="footer">
+          <p class="p2">My favourite anime</p>
+      </footer>
+  </body>
+</html>

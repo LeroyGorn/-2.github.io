@@ -1,0 +1,35 @@
+body{
+  background-color: #FF8C00;
+  font-family: Gill Sans, sans-serif;
+  font-weight: 900;
+}
+.h1{
+  color: red;
+}
+h1{
+  color: green;
+  line-height: 60%;
+}
+h2{
+  color: blue;
+}
+
+hr{
+  border-style: none;
+      border-top-style: dotted;
+      border-color: #4B0082;
+      border-width: 7px;
+      width: 30%;
+}
+A:link {
+ color: #036; /* ���� ������������ ������ */
+}
+A:visited {
+ color: #606; /* ���� ���������� ������ */
+}
+A:hover {
+ color: #f00; /* ���� ������ ��� ��������� �� ��� ������� ���� */
+}
+A:active {
+ color: #ff0; /* ���� �������� ������ */
+}
